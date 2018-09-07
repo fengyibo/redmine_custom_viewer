@@ -1,4 +1,4 @@
-var api_access_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+// var api_access_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 var elem = document.createElement("div")
 var issues_elem = $('#issue_tree').find('.issues')
