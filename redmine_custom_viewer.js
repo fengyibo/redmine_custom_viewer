@@ -35,8 +35,8 @@ $.ajax(param)
       id: issue.id,
       subject: issue.subject,
       due_date:  issue.due_date,
-      status: issue.status.name,
-      assignee: issue.assigned_to.name,
+      status: issue.status ? issue.status.name : '',
+      assignee: issue.assigned_to ? issue.assigned_to.name : '',
       estimated_hours: issue.estimated_hours
     }
     issues.push(row);
